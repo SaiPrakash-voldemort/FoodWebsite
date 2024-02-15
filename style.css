@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+nav img {
+  height: 50px;
+  width: 50px;
+}
+.top_img {
+  align-items: center;
+  width: 49%;
+}
+.top_img img {
+  width: 600px;
+  height: 600px;
+}
+.top {
+  display: flex;
+}
+.top_info {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  justify-content: center;
+}
+.top_info h5 {
+  width: 300px;
+  background-color: lightgreen;
+  color: white;
+  margin: 4px;
+  padding: 17px;
+  font-size: 27px;
+}
+.top_info h1 {
+  font-size: 50px;
+}
+.top_info p {
+  width: 330px;
+  margin: 10px;
+}
+.top_info a {
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  width: 188px;
+  margin: 10px;
+  padding: 17px;
+  background-color: lightsalmon;
+}
+.top_two {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+}
+.text {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.text h3 {
+  font-weight: bold;
+}
+.icon {
+  margin: 10px;
+}
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+.card {
+  width: 300px;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mid_two a {
+  text-decoration: none;
+  margin: 7px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: lightgreen;
+}
+.mid_two h2 {
+  margin: 10px;
+  font-size: 40px;
+}
+.mid_two {
+  margin: 20px;
+  padding: 20px;
+  width: 100vw;
+  border: solid 2px red;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.menu {
+  display: grid;
+  grid-template-areas:
+    "a1 a2 a3 "
+    "a4 a4 a6"
+    "a5 a7 a6";
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.rand_img1 {
+  grid-area: a1;
+}
+.rand_img2 {
+  grid-area: a2;
+}
+.rand_img3 {
+  grid-area: a3;
+}
+.rand_img4 {
+  grid-area: a4;
+}
+.rand_img5 {
+  grid-area: a5;
+}
+.rand_img6 {
+  grid-area: a6;
+}
+.rand_img7 {
+  grid-area: a7;
+}
